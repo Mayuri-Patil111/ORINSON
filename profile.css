@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: skyblue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 20px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* About Me Section */
+#img img {
+    max-width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+#skills li {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Hobbies Section */
+#hobbies ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+#hobbies li {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Projects Section */
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin: 5px 0;
+    color: black;
+}
+
+.project ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Contact Section */
+#contact p {
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#contact img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Social Media Links */
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-flex;
+    align-items: left;
+    gap: 8px;
+}
+
+.social-media a img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-media a:hover {
+    color: #4CAF50;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
