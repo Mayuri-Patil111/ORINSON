@@ -1,0 +1,327 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fff4f4, #ffe6f0);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #ff4d88, #ff73a9);
+    color: white;
+    padding: 0.2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.product img {
+    width: 500px;
+    height: 324px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.product img:hover {
+    transform: scale(1.05);
+}
+
+.product h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 2px 2px #ffe6f0;
+}
+
+.product .brand {
+    font-size: 1.2rem;
+    color: #888;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.product p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.product .price {
+    font-size: 1.8rem;
+    color: #ff4d88;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.product .discount {
+    font-size: 1.2rem;
+    color: #ff8800;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    background: #fff4e5;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.cta button {
+    background: linear-gradient(90deg, red, rgb(244, 69, 69));
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.cta button:hover {
+    background: linear-gradient(90deg, green, green);
+    transform: translateY(-3px);
+}
+
+section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #fff4f4, #fff0ff);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff4d88;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+section ul li {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.5rem 0;
+    background: #ffe6f0;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Available Colors Section */
+.available-colors ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+}
+
+.available-colors li {
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+
+/* Style for the color stain (swatch) */
+.color-stain {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ccc; 
+}
+
+/* Individual colors */
+.color-classic-red {
+    background-color: #D2042D;
+}
+
+.color-nude {
+    background-color: #E3C9B0;
+}
+
+.color-blue-cream {
+    background-color: #B0E0E6;
+}
+
+.color-burgundy {
+    background-color: #800020;
+}
+
+.color-barbie-pink {
+    background-color: #FF69B4;
+}
+
+.color-forest-green {
+    background-color: #228B22;
+}
+
+.color-creamy-white {
+    background-color: #FAF3E0;
+}
+
+.color-french-tips {
+    background-color: #FFFFFF;
+    border: 1px solid #000;
+}
+
+.color-deep-berry {
+    background-color: #4B0082;
+}
+
+.color-coral {
+    background-color: #FF7F50;
+}
+
+.color-metallic-silver {
+    background-color: #C0C0C0;
+}
+
+.color-rose-gold {
+    background-color: #B76E79;
+}
+
+/* Hover effect for color items */
+.available-colors li:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+
+/* Style for "Many more shades like this" text */
+.more-shades {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Base styling for social media links */
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Add space between items */
+}
+
+.social-media li {
+    display: inline-block;
+}
+
+.social-media a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #555; /* Default color */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    transition: color 0.3s ease;
+}
+
+/* Individual platform colors */
+.social-media a:hover, .social-media a:focus {
+    color: #000; /* Default hover color */
+}
+
+.social-media a i.fa-facebook {
+    color: #1877F2; /* Facebook Blue */
+}
+
+.social-media a i.fa-instagram {
+    color: #E4405F; /* Instagram Pink */
+}
+
+.social-media a i.fa-twitter {
+    color: #1DA1F2; /* Twitter Blue */
+}
+
+.social-media a i.fa-pinterest {
+    color: #E60023; /* Pinterest Red */
+}
+
+.social-media a i.fa-youtube {
+    color: #FF0000; /* YouTube Red */
+}
+
+/* Optional: Hover effect for links */
+.social-media a:hover i {
+    filter: brightness(1.2); /* Slightly brighten the color on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(90deg, #ff4d88, #ff73a9);
+    font-size: 0.875rem;
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .product h1 {
+        font-size: 1rem;
+    }
+
+    .product p {
+        font-size: 0.875rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section ul li {
+        padding: 0.5rem 1rem;
+    }
+}
